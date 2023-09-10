@@ -220,6 +220,7 @@ li {
   }
 }
 .section2__box {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -233,6 +234,29 @@ li {
   line-height: 24px;
   color: rgba(35, 35, 64, 0.9);
   margin: 20px 0 40px 0;
+}
+.section2__box-calendar {
+  position: absolute;
+  top: 30px;
+  left: 24%;
+}
+.section2__box-image {
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+}
+.section2__box-image img {
+  display: block;
+  margin: 10px 0 0 0;
+}
+.section2__box-image2 {
+  position: absolute;
+  left: 30px;
+  bottom: 30px;
+}
+.section2__box-image2 img {
+  display: block;
+  margin: 10px 0 0 0;
 }
 
 @media screen and (max-width: 768px) {
@@ -256,11 +280,40 @@ li {
   .section2__box-text {
     width: 70%;
   }
+  .section2__box-calendar {
+    top: 80px;
+    left: 21%;
+  }
+  .section2__box-calendar img {
+    width: 200px;
+    height: 100px;
+  }
+  .section2__box-image {
+    right: 30px;
+    top: 70px;
+  }
+  .section2__box-image img:nth-child(2) {
+    height: 160px;
+  }
+  .section2__box-image img {
+    width: 180px;
+    height: 90px;
+  }
+  .section2__box-image2 {
+    left: 25px;
+    top: 260px;
+  }
+  .section2__box-image2 img:nth-child(1) {
+    height: 160px;
+  }
+  .section2__box-image2 img {
+    width: 160px;
+    height: 90px;
+  }
 }
 @media screen and (max-width: 400px) {
   .section2 {
     width: 100%;
-    padding: 0 20px;
   }
   .section2__box {
     width: 100%;
@@ -274,6 +327,7 @@ li {
     width: 100%;
   }
   .section2__box-left {
+    padding: 0 20px;
     margin: 80px 0 80px 0;
   }
   .section2__box-title {
@@ -281,6 +335,36 @@ li {
   }
   .section2__box-text {
     width: 83%;
+  }
+  .section2__box-calendar {
+    left: 44%;
+    top: 20px;
+  }
+  .section2__box-calendar img {
+    width: 200px;
+    height: 100px;
+  }
+  .section2__box-image {
+    right: 25px;
+    top: 20px;
+  }
+  .section2__box-image img:nth-child(2) {
+    height: 160px;
+  }
+  .section2__box-image img {
+    width: 180px;
+    height: 90px;
+  }
+  .section2__box-image2 {
+    left: 25px;
+    top: 200px;
+  }
+  .section2__box-image2 img:nth-child(1) {
+    height: 160px;
+  }
+  .section2__box-image2 img {
+    width: 160px;
+    height: 90px;
   }
 }
 .section3 {
