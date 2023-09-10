@@ -43,7 +43,10 @@
 
 @media screen and (max-width: 768px) {
     .hero {
+        width: 100%;
         padding: 0 20px;
+        background-image: url(/images/hero-imgt.png);
+        background-size: 100% 100%;
     }
 }
 

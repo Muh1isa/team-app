@@ -134,7 +134,10 @@ li {
 
 @media screen and (max-width: 768px) {
   .hero {
+    width: 100%;
     padding: 0 20px;
+    background-image: url(/images/hero-imgt.png);
+    background-size: 100% 100%;
   }
 }
 @media screen and (max-width: 400px) {
@@ -330,6 +333,11 @@ li {
   display: flex;
   justify-content: end;
   margin: 40px 150px 0 0;
+}
+.section3 .arrow-icons button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
 }
 .section3 .fa-arrow-left, .section3 .fa-arrow-right {
   font-size: 22px;

@@ -46,7 +46,12 @@
     .arrow-icons {
         display: flex;
         justify-content: end;
-        margin: 40px 150px 0 0;       
+        margin: 40px 150px 0 0;   
+        button {
+            border: none;
+            background: transparent;
+            cursor: pointer;
+        }    
     }
     .fa-arrow-left, .fa-arrow-right {
         font-size: 22px;
