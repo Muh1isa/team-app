@@ -28,6 +28,10 @@ li {
     font-size: 32px;
   }
 }
+.header {
+  position: relative;
+  z-index: 1;
+}
 .header__nav {
   display: flex;
   align-items: center;
@@ -95,9 +99,8 @@ li {
   color: #fff;
   background-image: url(/images/hero-image.png);
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
   top: 0;
-  z-index: -1;
 }
 .hero .container {
   margin: 300px auto 0 auto;

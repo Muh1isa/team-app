@@ -5,9 +5,9 @@
     color: #fff;
     background-image: url(/images/hero-image.png);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
     top: 0;
-    z-index: -1;
+    // z-index: -1;
     .container {
         margin: 300px auto 0 auto;
     }
